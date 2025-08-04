@@ -1,27 +1,13 @@
 
 
 ```markdown
-###  Crypto Signal Predictor (ETH/USDT) using LSTM + CCXT
+ __Crypto Signal Predictor (ETH/USDT) using LSTM__ 
 
 This project builds an LSTM model to predict short-term  prices using 1-minute OHLCV data via the `ccxt` library. The trained model is used for **live predictions** with confidence probability — ideal for crypto futures signal generation.
 
 ---
 
-### 📁 Project Structure
 
-```
-
-Signal/
-├── models/                    # Saved LSTM model & scaler
-│   ├── ethusdt\_model.h5
-│   └── ethusdt\_scaler.pkl
-├── scripts/
-│   ├── Trainingmodel.py       # Train and save model
-│   └── LivePredictor.py       # Load model and make live predictions
-├── .gitignore
-└── README.md
-
-````
 
 ---
 
